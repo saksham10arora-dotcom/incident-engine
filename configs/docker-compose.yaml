@@ -1,0 +1,5 @@
+version: '3.8'
+services:
+  my-app:
+    image: registry.hub.docker.com/library/my-private-app:v1.2.0
+    restart: always

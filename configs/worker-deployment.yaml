@@ -1,0 +1,16 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: worker-db
+spec:
+  replicas: 2
+  template:
+    spec:
+      containers:
+      - name: worker-db
+        image: postgres:15
+        resources:
+          limits:
+            memory: "512Mi"
+          requests:
+            memory: "256Mi"

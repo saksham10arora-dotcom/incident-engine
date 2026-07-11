@@ -1,0 +1,3 @@
+2026-07-10T10:05:00Z [info] [dockerd] Client requested pull of registry.hub.docker.com/library/my-private-app:v1.2.0
+2026-07-10T10:05:01Z [warning] [dockerd] Failed to pull image registry.hub.docker.com/library/my-private-app:v1.2.0: unauthorized: authentication required or token expired
+2026-07-10T10:05:02Z [error] [dockerd] Handler for POST /v1.41/images/create returned error: Get "https://registry-1.docker.io/v2/library/my-private-app/manifests/v1.2.0": unauthorized: incorrect credentials

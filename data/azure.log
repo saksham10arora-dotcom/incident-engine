@@ -1,0 +1,3 @@
+2026-07-10T10:15:00Z [info] [azure-gateway] Incoming HTTP request to payment.company.com/v1/checkout
+2026-07-10T10:15:01Z [error] [azure-gateway] SSL Handshake Failed. Peer: 192.168.1.105, Reason: Certificate Expired
+2026-07-10T10:15:02Z [error] [openssl] SSL_do_handshake() failed (SSL: error:14094415:SSL routines:ssl3_read_bytes:sslv3 alert certificate expired:SSL alert number 45)

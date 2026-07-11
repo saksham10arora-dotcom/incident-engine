@@ -1,0 +1,13 @@
+torch
+transformers
+accelerate
+sentence-transformers
+faiss-cpu
+scikit-learn
+networkx
+pandas
+openai
+matplotlib
+jinja2
+jupyter
+pyyaml
